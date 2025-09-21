@@ -69,9 +69,10 @@ docker-compose up -d
 │   ├── Dockerfile           # Docker container setup
 │   └── docker-compose.yml   # Docker Compose configuration
 └── docs/
-    ├── TROUBLESHOOTING.md   # Common issues and solutions
-    ├── PERFORMANCE.md       # Performance tuning guide
-    └── API_REFERENCE.md     # API usage documentation
+    ├── TROUBLESHOOTING.md           # Common issues and solutions
+    ├── PERFORMANCE.md               # Performance tuning guide
+    ├── API_REFERENCE.md             # API usage documentation
+    └── COMPREHENSIVE_API_REFERENCE.md # Complete API documentation
 ```
 
 ## ⚡ Quick Verification
@@ -89,6 +90,15 @@ python examples/basic_inference.py
 ./scripts/benchmark.sh
 ```
 
+## 📚 Documentation
+
+Complete documentation is available in the `docs/` directory:
+
+- **[COMPREHENSIVE_API_REFERENCE.md](./docs/COMPREHENSIVE_API_REFERENCE.md)** - Complete API documentation for all components, functions, and usage examples
+- **[API_REFERENCE.md](./docs/API_REFERENCE.md)** - API usage documentation
+- **[TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md)** - Common issues and solutions
+- **[PERFORMANCE.md](./docs/PERFORMANCE.md)** - Performance tuning guide
+
 ## 🐛 Troubleshooting
 
 If you encounter issues:
@@ -97,6 +107,7 @@ If you encounter issues:
 2. Run `./scripts/system_check.sh` to verify requirements
 3. Check logs in `~/qwen480b_env/logs/`
 4. Open an issue with detailed error logs
+5. Review [COMPREHENSIVE_API_REFERENCE.md](./docs/COMPREHENSIVE_API_REFERENCE.md) for detailed usage instructions
 
 ## 📊 Performance Expectations
 
@@ -130,6 +141,7 @@ This setup guide is provided under MIT License. The Qwen model follows its own l
 - **Issues**: [GitHub Issues](https://github.com/twobitapps/480b-setup/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/twobitapps/480b-setup/discussions)
 - **Documentation**: [Wiki](https://github.com/twobitapps/480b-setup/wiki)
+- **API Reference**: [Complete Documentation](./docs/COMPREHENSIVE_API_REFERENCE.md)
 
 ---
 
